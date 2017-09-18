@@ -1,0 +1,20 @@
+.idea
+code_outputs
+pics
+
+*.pyc
+
+# data folders
+/data/**/*
+/data/**/
+/data/*
+
+# output folders
+src/output/**/*
+src/output/**/
+src/output/*
+
+# models
+models/**/*
+models/**/
+models/*

@@ -1,0 +1,7 @@
+.idea
+_paper/.texpadtmp/
+code_outputs
+data
+pics
+
+*.pyc

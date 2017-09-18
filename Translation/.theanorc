@@ -1,0 +1,26 @@
+[global]
+device = gpu0
+floatX = float32
+optimizer = fast_run
+optimizer_including=cudnn
+mode=FAST_RUN
+
+# [blas]
+# ldflags = -L/usr/lib -lopenblas
+
+#[nvcc]
+#fastmath = True
+#allow_gc=True
+
+# [lib]
+# cnmem = 0.0
+
+[cuda]
+root = /cuda-6.5
+
+[gcc]
+cxxflags=-I /cuda-6.5/include -L /cuda-6.5/lib64
+
+[scan]
+allow_gc=True
+allow_output_prealloc=True
